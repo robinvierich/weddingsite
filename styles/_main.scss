@@ -1,0 +1,112 @@
+$goldenrod: #cb9160;
+$pecan: #bd9c97;
+$blush: #d9bbb1;
+$storm: #4c535d;
+
+
+
+
+$beaver: #967D69;
+
+$sage: #A3B18A;
+$laurel-green: #ABB894;
+$pastel-gray: #D1D8C4;
+$silver-green: #C1CBB1;
+
+$pale-spring-bud: #EFF2C0;
+$spanish-gray: #8E9B90;
+$pewter-blue: #92B9BD;
+
+$main-color: $goldenrod;
+$dark-color: $storm;
+
+$dark-font-color: #464e36;
+
+
+
+$top-bar-height: 62px; 
+
+
+@font-face {
+  font-family: "Audrey";
+  src: url("/fonts/Audrey/Audrey-Normal.otf");
+}
+
+@font-face {
+  font-family: "Audrey";
+  font-weight: medium;
+  src: url("/fonts/Audrey/Audrey-Medium.otf");
+}
+
+@font-face {
+  font-family: "Audrey";
+  font-weight: bold;
+  src: url("/fonts/Audrey/Audrey-Bold.otf");
+}
+
+.fullwidth {
+	//width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: initial;
+	width: 100%;
+}
+
+.fixed {
+	position: fixed !important;
+}
+
+#top-bar-container {
+	background: rgba(240, 240, 240, 0.3);
+	background: rgba(240, 240, 240, 0.0);
+
+	width: 100vw;
+}
+
+#page {
+}
+
+#page-contents {
+}
+
+#details {
+	//background: $silver-green;
+	background: $pastel-gray;
+}
+
+.gifts {
+	background: $white;
+}
+
+#rsvp {
+	//background: $silver-green;
+	background: $pastel-gray;
+}
+
+// .reception {
+// 	background: $silver-green;
+// }
+
+
+
+.top-bar {
+	position: relative;
+	width: 100%;
+
+	a {
+		font-size: 1.5rem;
+		text-shadow: 0px 1px 1px rgba($pastel-gray, 0.5);
+		&:hover {
+			text-shadow: none;
+		}
+	}
+}
+
+.top-bar-title-text {
+	color: white;
+}
+
+.section {
+	height: 93vh;
+	padding-top: 1.5rem;
+}

@@ -1,0 +1,14 @@
+
+//$body-font-color: #0A0A0A;
+
+$topbar-background: transparent;
+
+$header-font-family: 'Audrey';
+$header-margin-bottom: 0;
+
+$body-font-family: 'Audrey';
+
+$anchor-color: $dark-font-color;
+$anchor-color-hover: scale-color($anchor-color, $lightness: +50%);
+
+$hr-border: 1px solid $body-font-color;
