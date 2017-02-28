@@ -1,0 +1,15 @@
+.fullwidth {
+	//width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: initial;
+	width: 90vw;
+}
+
+#bg {
+	background: $pastel-gray;
+}
+
+#contents {
+	box-shadow: 0px 0px 20px $dark-color;//, -0px 0px 10px $dark-color;
+}
