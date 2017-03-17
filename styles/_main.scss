@@ -52,6 +52,10 @@ $top-bar-height: 62px;
 	width: 100%;
 }
 
+.fullheight {
+	height: 100%;
+}
+
 .fixed {
 	position: fixed !important;
 }
@@ -100,6 +104,11 @@ $top-bar-height: 62px;
 			text-shadow: none;
 		}
 	}
+
+	#title-text {
+		font-size: 1.5rem;
+		font-weight: bold;
+	}
 }
 
 .top-bar-title-text {
@@ -107,6 +116,44 @@ $top-bar-height: 62px;
 }
 
 .section {
-	height: 93vh;
-	padding-top: 1.5rem;
+	height: 99vh;
+	//padding-top: 1.5rem;
+
+	> .row {
+		height: 100%;
+	}
+
+	&.last-section {
+		height: 100vh;
+	}
 }
+
+.underline {
+	text-decoration: underline;
+}
+
+#map-column {
+	text-align: right;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.superscript {
+	vertical-align: super;
+}
+
+#rsvp-link {
+	text-decoration: underline;
+}
+
+// #details-text {
+// 	#date-text {
+// 		margin:0
+// 	}
+
+	// #time-text {
+	// 	margin-top: 30%;
+	// }
+// }
