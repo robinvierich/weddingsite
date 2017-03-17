@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node node_modules/webpack/bin/webpack.js",
+    "debug": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "webpack": "^2.2.1"
   },
   "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
     "webpack-dev-server": "^2.3.0"
   }
 }

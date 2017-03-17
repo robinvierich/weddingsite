@@ -1,4 +1,5 @@
 var path = require('path')
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
 
@@ -18,9 +19,17 @@ module.exports = {
     },
 
     output: {
-        path: path.resolve(__dirname, 'out'),
+        path: path.resolve(__dirname, 'doc'),
         filename: '[name].bundle.js'
     },
+
+    plugins: [
+        new CopyWebpackPlugin([
+            { from: 'images', to: 'images/' },
+            { from: 'fonts', to: 'fonts/' },
+            { from: 'index.html' }
+        ])
+    ],
 
     externals: {
         //jQuery: 'jQuery'
