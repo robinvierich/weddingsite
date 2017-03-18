@@ -78,6 +78,14 @@ $top-bar-height: 62px;
 	background: $pastel-gray;
 }
 
+#parking-title-text {
+	margin-top: 0.75rem;
+}
+
+#date-details{
+	//margin-top: 5rem;	
+}
+
 .gifts {
 	background: $white;
 }
@@ -144,8 +152,24 @@ $top-bar-height: 62px;
 	vertical-align: super;
 }
 
-#rsvp-link {
+.underline {
 	text-decoration: underline;
+}
+
+
+
+#rsvp-link {
+	//display:none;
+	
+
+	h1 {
+		//margin-top: 4rem;
+	}
+}
+
+#rsvp-button {
+	height: 55px;
+	//height: 82px;
 }
 
 // #details-text {

@@ -12,3 +12,6 @@ $anchor-color: $dark-font-color;
 $anchor-color-hover: scale-color($anchor-color, $lightness: +50%);
 
 $hr-border: 1px solid $body-font-color;
+
+$button-background: $beaver;
+$button-background-hover: scale-color($button-background, $lightness: -15%);
