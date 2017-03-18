@@ -13,17 +13,17 @@
       <div id='page-contents'>
         <div data-sticky-container class='fixed'>
           <div id="top-bar-container" class='sticky' data-options="anchor: page-contents; marginTop:0; stickyOn: small;">
-            <div class='top-bar'>
-              <div class="top-bar-title">
-                <div class='column'>
-                  <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+            <div class='top-bar '>
+              <div class="top-bar-title ">
+                <div class='column small-12'>
+                  <span data-responsive-toggle="responsive-menu" data-hide-for="medium" class='align-self-right'>
                     <button class="menu-icon dark" type="button" data-toggle></button>
                   </span>
-                  <a href="#bg">Syd and Rob</a>
+                  <a href="#bg" class='show-for-medium'>Syd and Rob</a>
                 </div>
               </div>
 
-              <div class="top-bar-right" id='responsive-menu'>
+              <div id="normal-menu" class='top-bar-right show-for-medium'>
                 <div class='column'>
                   <ul class="menu" data-responsive-menu="drilldown medium-dropdown">
                     <li><a href="#details">Details</a></li>
@@ -39,12 +39,28 @@
                   </ul>
                 </div>
               </div>
+
+              <div id='responsive-menu' class="top-bar-right hide-for-medium" >
+                <ul class="menu" data-responsive-menu="drilldown medium-dropdown">
+                  <li><a href="#details">Details</a></li>
+                  <!-- <li><a href="#reception">Reception</a></li> -->
+                  <li><a href="#gifts">Registry</a></li>
+                  <!-- <li>
+                    <button id='rsvp-button' class='button'>
+                      <h4 class='no-margin'>RSVP</h4>
+                    </button>
+                  </li> -->
+                  <li><a href="#rsvp"><strong>RSVP</strong></a></li>
+                  <!-- <li><button href="#rsvp" class='button'>RSVP</button></li> -->
+                </ul>
+              </div>
             </div>
           </div>
         </div>
 
-        <div id='bg' class="row align-center">
-          <image src="images/save-the-date-no-text-topcrop.png"></image>
+        <div id='bg' class="row align-center section">
+          <!-- <image id='top-image' src="images/save-the-date-no-text-topcrop.png" width='768', height='1052'></image> -->
+          <div id='top-image'></div>
         </div>
 
         <div class="details section" id='details'>
@@ -57,14 +73,14 @@
               </div> -->
 
               <div class='row align-center'>
-                <div id='map-column' class="large-5 column">
+                <div id='map-column' class="large-5 small-10 column">
                   <a href='https://www.google.ca/maps/dir//Piano+Piano+Restaurant,+88+Harbord+St,+Toronto,+ON+M5S+1G5/@43.6631306,-79.4052059,17z/data=!4m15!1m6!3m5!1s0x882b3495801ccf1d:0xbbf5547771ddd29!2sPiano+Piano+Restaurant!8m2!3d43.6631306!4d-79.4030172!4m7!1m0!1m5!1m1!1s0x882b3495801ccf1d:0xbbf5547771ddd29!2m2!1d-79.4030172!2d43.6631306'>
                     <image src='https://maps.googleapis.com/maps/api/staticmap?&size=320x320&zoom=14&markers=color:0xa1a895|"Piano+Piano+Restauraunt,+Toronto,+ON,+Canada"&style=feature:water|element:geometry.fill|color:0xd3d3d3&style=feature:transit|stylers:|color:0x808080|visibility:off&style=feature:road.highway|element:geometry.stroke|visibility:on|color:0xb3b3b3&style=feature:road.highway|element:geometry.fill|color:0xffffff&style=feature:road.local|element:geometry.fill|visibility:on|color:0xffffff|weight:1.8&style=feature:road.local|element:geometry.stroke|color:0xd7d7d7&style=feature:poi|element:geometry.fill|visibility:on|color:0xebebeb&style=feature:administrative|element:geometry|color:0xa7a7a7&style=feature:road.arterial|element:geometry.fill|color:0xffffff&style=feature:road.arterial|element:geometry.fill|color:0xffffff&style=feature:landscape|element:geometry.fill|visibility:on|color:0xefefef&style=feature:road|element:labels.text.fill|color:0x696969&style=feature:administrative|element:labels.text.fill|visibility:on|color:0x737373&style=feature:poi|element:labels.icon|visibility:off&style=feature:poi|element:labels|visibility:off&style=feature:road.arterial|element:geometry.stroke|color:0xd6d6d6&style=feature:road|element:labels.icon|visibility:off&style=feature:poi|element:geometry.fill|color:0xdadada'></image>
                   </a>
                   
                 </div>
 
-                <div id='details-text' class='large-7 column'>
+                <div id='details-text' class='large-7 small-10 column'>
                   <div class='row'>
                     <div class='column'>
                       <a href='http://www.pianopianotherestaurant.com/'><h3 class='no-margin underline'>Piano Piano Restaurant</h3></a>
@@ -72,6 +88,7 @@
                       <h5 class='no-margin'>Toronto, ON</h5>
                     </div>
                   </div>
+                  <div class='hide-for-medium rem-spacer'></div>
                   <div class='row'>
                   <!-- <div class='align-self-bottom'> -->
                     
@@ -81,6 +98,7 @@
                       <h5 id='dinner-reception-text' class='no-margin'>Dinner and reception follow.</h5>
                     </div>
                   </div>
+                  <div class='hide-for-medium rem-spacer'></div>
                   <div class='row'>
                   <!-- <div class='align-self-bottom'> -->
                     
@@ -101,7 +119,7 @@
 
         <!--  <div class="reception fullwidth section" id='reception'>
           <div class='row align-center'>
-            <div class="large-9 small-9 columns">
+            <div class="large-9 small-10 columns">
               <h1 class='text-center'>Reception</h1>
               
 
@@ -123,26 +141,26 @@
 
     <!--     <div class="reception fullwidth" id='reception'>
           <div class='row'>
-            <div class="large-9 small-9 medium-4 columns"></div>
-            <div class="large-9 small-9 medium-4 columns">
+            <div class="large-9 small-10 medium-4 columns"></div>
+            <div class="large-9 small-10 medium-4 columns">
               <h3>Reception</h3>
               <ul>
                 
               </ul>
             </div>
-            <div class="large-9 small-9 medium-4 columns"></div>
+            <div class="large-9 small-10 medium-4 columns"></div>
           </div>
         </div> -->
 
          <div class="gifts  section" id='gifts'>
           <div class='row align-center align-middle'>
-            <div class="large-9 small-9 columns align-self-middle">
+            <div class="large-9 small-10 columns align-self-middle">
               
               <h3 class='text-left'>We have set up a honeyfund which allows guests to contribute towards portions of our honeymoon trip.</h3>
               
 
               <div class='row'>
-                <div class="large-12 columns text-center">
+                <div class="large-12 columns text-left">
                   <a href='https://www.honeyfund.com/wedding/sydandrob'>
                     <h1 class='underline'>Click Here to access our Honeyfund</h1>
                   </a>
@@ -155,13 +173,13 @@
 
         <div class="rsvp section last-section" id='rsvp'>
           <div class='row align-center'>
-            <div class="large-9 small-9 columns align-self-middle">
+            <div class="large-9 small-10 columns align-self-middle">
               <!-- <h1 class='text-center'>RSVP</h1> -->
               
               <div class='row'>
                 <div class="large-12 columns text-center">
                   <h3 class='text-left'>We would appreciate if you could RSVP before <strong>May 1<span class='superscript'>st</span>, 2017.</strong></h3>
-                  <a href="https://sydandrob.app.rsvpify.com/" id='rsvp-link' class='underline text-center'><h1>Click Here to RSVP</h1></a>
+                  <a href="https://sydandrob.app.rsvpify.com/" id='rsvp-link' class='underline text-left'><h1>Click Here to RSVP</h1></a>
                 </div>
               </div>
             </div>
