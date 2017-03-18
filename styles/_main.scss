@@ -73,6 +73,18 @@ $top-bar-height: 62px;
 #page-contents {
 }
 
+#top-image {
+	background: url('/images/save-the-date-no-text-topcrop.png') no-repeat;
+	background-size: contain;
+    background-position: 50% 50%;
+    width: 100%;
+	
+	//max-height: 1052;
+
+	//width: auto;
+	//height: auto;
+}
+
 #details {
 	//background: $silver-green;
 	background: $pastel-gray;
@@ -123,6 +135,51 @@ $top-bar-height: 62px;
 	color: white;
 }
 
+#hamburger-menu{
+	background: black;
+}
+
+#responsive-menu{
+	//background: $storm;
+	//background: $goldenrod;
+	//background: $pecan;
+	//background: $blush;
+	//background: $storm;
+
+	//background: rgba($sage, 0.4);
+
+	background: rgba(#FAFAFA, 0.9);
+
+	li:first-child {
+		border-top: 1px solid $dark-color;
+	}
+
+	li {
+		border-bottom: 1px solid $dark-color;
+		border-left: 1px solid $dark-color;
+		border-right: 1px solid $dark-color;
+	}
+
+//	background: rgba(0,0,0,0.2);
+
+
+	//background: $beaver;
+
+	//background: $sage;
+	//background: $laurel-green;
+	//background: $pastel-gray;
+	//background: $silver-green;
+
+	//background: $pale-spring-bud;
+	//background: $spanish-gray;
+	//background: $pewter-blue;
+
+	//background: $main-color;
+	//background: $dark-color;
+
+	//background: $dark-font-color;
+}
+
 .section {
 	height: 99vh;
 	//padding-top: 1.5rem;
@@ -142,6 +199,11 @@ $top-bar-height: 62px;
 
 #map-column {
 	text-align: right;
+	margin-bottom: 2rem;
+}
+
+.rem-spacer {
+	margin-bottom: 1rem;
 }
 
 .no-margin {
