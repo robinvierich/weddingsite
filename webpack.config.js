@@ -43,9 +43,15 @@ module.exports = {
                 use: [
                     {loader: 'style-loader'},
                     {loader: 'css-loader'},
+                    {loader: 'resolve-url-loader'},
                     {loader: 'postcss-loader'},
                     {loader: 'sass-loader'},
+
                 ]
+            },
+            {
+                test: /\.(png|jpg)/,
+                loader: 'url-loader'
             },
             {
                 test: /\.html$/,
