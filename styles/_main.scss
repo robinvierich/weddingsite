@@ -73,6 +73,22 @@ $top-bar-height: 62px;
 #page-contents {
 }
 
+#page-overlay {
+	position: fixed;
+
+	#syd-image {
+		//-webkit-transform: translate3d(100vw, 0, 0);
+		position: fixed;
+		transform: translate3d(100vw, 0, 0);
+	}
+
+	#rob-image {
+		//-webkit-transform: translate3d(-200px, 0, 0);
+		position: fixed;
+		transform: translate3d(-1000px, 0, 0);
+	}	
+}
+
 #top-image {
 	background: url('images/save-the-date-no-text-topcrop.png') no-repeat;
 	background-size: contain;
@@ -119,10 +135,10 @@ $top-bar-height: 62px;
 
 	a {
 		font-size: 1.5rem;
-		text-shadow: 0px 1px 1px rgba($pastel-gray, 0.5);
-		&:hover {
-			text-shadow: none;
-		}
+		//text-shadow: 0px 1px 1px rgba($pastel-gray, 0.5);
+		// &:hover {
+		// 	text-shadow: none;
+		// }
 	}
 
 	#title-text {
