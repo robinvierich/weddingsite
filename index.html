@@ -10,8 +10,8 @@
   </head>
   <body>
     <div id='page-overlay'>
-      <img id='syd-image' src='images/save-the-date-no-text-topcrop-syd.png'></img>
-      <img id='rob-image' src='images/save-the-date-no-text-topcrop-rob.png'></img>
+      <img id='syd-image' class='show-for-medium' src='images/save-the-date-no-text-topcrop-syd-nobg.png'></img>
+      <img id='rob-image' class='show-for-medium' src='images/save-the-date-no-text-topcrop-rob-nobg.png'></img>
     </div>
     <div id='page'>
       <div id='page-contents'>
@@ -23,7 +23,7 @@
                   <span data-responsive-toggle='responsive-menu' data-hide-for='medium' class='align-self-right'>
                     <button class='menu-icon dark' type='button' data-toggle></button>
                   </span>
-                  <a href='#bg' class='show-for-medium'>Syd and Rob</a>
+                  <a id='syd-and-rob-text' href='#bg' class='show-for-medium'>Syd and Rob</a>
                 </div>
               </div>
 
@@ -31,15 +31,8 @@
                 <div class='column'>
                   <ul class='menu' data-responsive-menu='drilldown medium-dropdown'>
                     <li><a href='#details'>Details</a></li>
-                    <!-- <li><a href='#reception'>Reception</a></li> -->
                     <li><a href='#gifts'>Registry</a></li>
-                    <!-- <li>
-                      <button id='rsvp-button' class='button'>
-                        <h4 class='no-margin'>RSVP</h4>
-                      </button>
-                    </li> -->
                     <li><a href='#rsvp'><strong>RSVP</strong></a></li>
-                    <!-- <li><button href='#rsvp' class='button'>RSVP</button></li> -->
                   </ul>
                 </div>
               </div>
@@ -47,15 +40,8 @@
               <div id='responsive-menu' class='top-bar-right hide-for-medium' >
                 <ul class='menu' data-responsive-menu='drilldown medium-dropdown'>
                   <li><a href='#details'>Details</a></li>
-                  <!-- <li><a href='#reception'>Reception</a></li> -->
                   <li><a href='#gifts'>Registry</a></li>
-                  <!-- <li>
-                    <button id='rsvp-button' class='button'>
-                      <h4 class='no-margin'>RSVP</h4>
-                    </button>
-                  </li> -->
                   <li><a href='#rsvp'><strong>RSVP</strong></a></li>
-                  <!-- <li><button href='#rsvp' class='button'>RSVP</button></li> -->
                 </ul>
               </div>
             </div>
@@ -63,18 +49,12 @@
         </div>
 
         <div id='bg' class='row align-center section'>
-          <!-- <image id='top-image' src='images/save-the-date-no-text-topcrop.png' width='768', height='1052'></image> -->
           <div id='top-image'></div>
         </div>
 
         <div class='details section' id='details'>
           <div class='row'>
             <div class='large-12 small-12 column align-self-middle'>
-              <!-- <div class='row align-center'>
-                <div class='large-12 small-12 column'>
-                  <h1 class='text-center'>Details</h1>
-                </div>
-              </div> -->
 
               <div class='row align-center'>
                 <div id='map-column' class='large-5 small-10 column'>
@@ -99,7 +79,7 @@
                     <div class='column align-self-bottom align-self-left' id='date-details'>
                       <h3 id='date-text' class='no-margin'>June 24<span class='superscript'>th</span>, 2017</h3>
                       <h5 id='time-text' class='no-margin'>Ceremony starts at 6:00 PM</h5>
-                      <h5 id='dinner-reception-text' class='no-margin'>Dinner and reception follow.</h5>
+                      <h5 id='dinner-reception-text' class='no-margin'>Dinner and reception to follow.</h5>
                     </div>
                   </div>
                   <div class='hide-for-medium rem-spacer'></div>
@@ -108,9 +88,8 @@
                     
                     <div class='column align-self-bottom align-self-left' id='parking-details'>
                       <h3 id='parking-title-text' class='no-margin'>Parking</h3>
-                      <h5 id='parking-text' class='no-margin'>We recommend taxi or transit, but if required</h5>
-                      <h5 id='parking-text' class='no-margin'>
-                         there is a lot nearby at 
+                      <h5 id='parking-text' class='no-margin'>We recommend taxi or transit, but if required there is a lot nearby at</h5>
+                      <h5>
                         <a href='https://www.google.ca/maps/place/Graduate+House+Garage/@43.6635624,-79.4040061,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34be3e6a9e03:0xe5589930f48f1a6f!8m2!3d43.6635624!4d-79.4018174' class='underline'>17 Glen Morris St.</a>
                       </h5>
                     </div>
@@ -120,41 +99,6 @@
             </div>
           </div>
         </div>
-
-        <!--  <div class='reception fullwidth section' id='reception'>
-          <div class='row align-center'>
-            <div class='large-9 small-10 columns'>
-              <h1 class='text-center'>Reception</h1>
-              
-
-              <div class='row'>
-                <div class='large-12 columns'>
-                  <a href='https://www.google.ca/maps?q=piano+piano+toronto&rlz=1C1CHBF_enCA709CA709&ion=1&espv=2&bav=on.2,or.r_cp.&bvm=bv.146786187,d.amc&biw=1680&bih=920&dpr=1&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjI3u-DjonSAhXn6IMKHQaXDikQ_AUIBygC'>Piano Piano</a>
-                </div>
-                
-              </div>
-
-              <div class='row'>
-                <div class='large-12 columns'>
-                  <span>6:30pm</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-    <!--     <div class='reception fullwidth' id='reception'>
-          <div class='row'>
-            <div class='large-9 small-10 medium-4 columns'></div>
-            <div class='large-9 small-10 medium-4 columns'>
-              <h3>Reception</h3>
-              <ul>
-                
-              </ul>
-            </div>
-            <div class='large-9 small-10 medium-4 columns'></div>
-          </div>
-        </div> -->
 
          <div class='gifts  section' id='gifts'>
           <div class='row align-center align-middle'>
@@ -169,7 +113,13 @@
                     <h1 class='underline'>Click Here to access our Honeyfund</h1>
                   </a>
                 </div>
-                
+              </div>
+
+              <div class='row'>
+                <div class='large-12 columns text-left'>
+                  <br><br>
+                  <h4 class='text-left'>We also have a more traditional registry set up with <a href='https://www.zonemaison.com/gifts_and_weddings/1724' class='underline'>Zone Maison</a> if preferred.</h4>
+                </div>
               </div>
             </div>
           </div>
