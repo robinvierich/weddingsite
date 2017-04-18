@@ -91,10 +91,10 @@ var main = function() {
     var sydImageWidth = $sydImage.width();
     var robImageWidth = $robImage.width();
 
-    var pageWidth = $(document).outerWidth();
+    var pageWidth = $(window).innerWidth();
 
     window.addEventListener("optimizedResize", function() {
-        pageWidth = $(document).outerWidth();
+        pageWidth = $(window).innerWidth();
     });
 
     var update = function() {
@@ -103,7 +103,7 @@ var main = function() {
         //if (scrollY >= (bgHeight / 2)) {
             var animPct = bound(0, 1, (scrollY - bgMid) / (detailsTop - bgMid));
 
-            var rotationAngle = 30;
+            var rotationAngle = 25;
             var robMinX = -robImageWidth - robImageWidth * Math.cos(Math.radians(rotationAngle))
             var sydMaxX = pageWidth + (sydImageWidth * Math.cos(Math.radians(rotationAngle)))
 
