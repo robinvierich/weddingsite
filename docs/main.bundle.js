@@ -543,6 +543,17 @@ var linear = function(start, end, t) {
     return (end - start) * t + start;
 }
 
+var sydImageWidth = 10000; // default settings to prevent pop-in
+var robImageWidth = 10000;
+
+
+window.addEventListener("load", function(event) {
+    var $sydImage = $('#syd-image');
+    var $robImage = $('#rob-image');
+
+    sydImageWidth = $sydImage.width();
+    robImageWidth = $robImage.width();
+});
 
 var main = function() {
     $(document).foundation();
@@ -572,9 +583,6 @@ var main = function() {
     var $sydImage = $('#syd-image');
     var $robImage = $('#rob-image');
 
-    var sydImageWidth = $sydImage.width();
-    var robImageWidth = $robImage.width();
-
     var pageWidth = $(window).innerWidth();
 
     window.addEventListener("optimizedResize", function() {
@@ -601,7 +609,7 @@ var main = function() {
         window.requestAnimationFrame(update)
     };
 
-    window.requestAnimationFrame(update)
+    update();
 }
 
 $(document).ready(main);
