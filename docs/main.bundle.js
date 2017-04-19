@@ -86,7 +86,7 @@ module.exports = function(src) {
 /* 1 */
 /***/ (function(module, exports) {
 
-module.exports = "<!doctype html>\r\n<html class='no-js' lang='en' dir='ltr'>\r\n  <head>\r\n    <meta charset='utf-8'>\r\n    <meta http-equiv='x-ua-compatible' content='ie=edge'>\r\n    <meta name='viewport' content='width=device-width, initial-scale=1.0'>\r\n    <title>Syd and Rob</title>\r\n\r\n    <script type='text/javascript' src='main.bundle.js'></script>\r\n  </head>\r\n  <body>\r\n    <div id='page-overlay'>\r\n      <img id='syd-image' class='show-for-medium' src='images/save-the-date-no-text-topcrop-syd-nobg.png'></img>\r\n      <img id='rob-image' class='show-for-medium' src='images/save-the-date-no-text-topcrop-rob-nobg.png'></img>\r\n    </div>\r\n    <div id='page'>\r\n      <div id='page-contents'>\r\n        <div data-sticky-container class='fixed'>\r\n          <div id='top-bar-container' class='sticky' data-options='anchor: page-contents; marginTop:0; stickyOn: small;'>\r\n            <div class='top-bar '>\r\n              <div class='top-bar-title '>\r\n                <div class='column small-12'>\r\n                  <span data-responsive-toggle='responsive-menu' data-hide-for='medium' class='align-self-right'>\r\n                    <button class='menu-icon dark' type='button' data-toggle></button>\r\n                  </span>\r\n                  <a id='syd-and-rob-text' href='#bg' class='show-for-medium'>Syd and Rob</a>\r\n                </div>\r\n              </div>\r\n\r\n              <div id='normal-menu' class='top-bar-right show-for-medium'>\r\n                <div class='column'>\r\n                  <ul class='menu' data-responsive-menu='drilldown medium-dropdown'>\r\n                    <li><a href='#details'>Details</a></li>\r\n                    <li><a href='#gifts'>Registry</a></li>\r\n                    <li><a href='#rsvp'><strong>RSVP</strong></a></li>\r\n                  </ul>\r\n                </div>\r\n              </div>\r\n\r\n              <div id='responsive-menu' class='top-bar-right hide-for-medium' >\r\n                <ul class='menu' data-responsive-menu='drilldown medium-dropdown'>\r\n                  <li><a href='#details'>Details</a></li>\r\n                  <li><a href='#gifts'>Registry</a></li>\r\n                  <li><a href='#rsvp'><strong>RSVP</strong></a></li>\r\n                </ul>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div id='bg' class='row align-center section'>\r\n          <div id='top-image'></div>\r\n        </div>\r\n\r\n        <div class='details section' id='details'>\r\n          <div class='row'>\r\n            <div class='large-12 small-12 column align-self-middle'>\r\n\r\n              <div class='row align-center'>\r\n                <div id='map-column' class='large-5 small-10 column'>\r\n                  <a href='https://www.google.ca/maps/dir//Piano+Piano+Restaurant,+88+Harbord+St,+Toronto,+ON+M5S+1G5/@43.6631306,-79.4052059,17z/data=!4m15!1m6!3m5!1s0x882b3495801ccf1d:0xbbf5547771ddd29!2sPiano+Piano+Restaurant!8m2!3d43.6631306!4d-79.4030172!4m7!1m0!1m5!1m1!1s0x882b3495801ccf1d:0xbbf5547771ddd29!2m2!1d-79.4030172!2d43.6631306'>\r\n                    <image src='https://maps.googleapis.com/maps/api/staticmap?&size=320x320&zoom=14&markers=color:0xa1a895|\"Piano+Piano+Restauraunt,+Toronto,+ON,+Canada\"&style=feature:water|element:geometry.fill|color:0xd3d3d3&style=feature:transit|stylers:|color:0x808080|visibility:off&style=feature:road.highway|element:geometry.stroke|visibility:on|color:0xb3b3b3&style=feature:road.highway|element:geometry.fill|color:0xffffff&style=feature:road.local|element:geometry.fill|visibility:on|color:0xffffff|weight:1.8&style=feature:road.local|element:geometry.stroke|color:0xd7d7d7&style=feature:poi|element:geometry.fill|visibility:on|color:0xebebeb&style=feature:administrative|element:geometry|color:0xa7a7a7&style=feature:road.arterial|element:geometry.fill|color:0xffffff&style=feature:road.arterial|element:geometry.fill|color:0xffffff&style=feature:landscape|element:geometry.fill|visibility:on|color:0xefefef&style=feature:road|element:labels.text.fill|color:0x696969&style=feature:administrative|element:labels.text.fill|visibility:on|color:0x737373&style=feature:poi|element:labels.icon|visibility:off&style=feature:poi|element:labels|visibility:off&style=feature:road.arterial|element:geometry.stroke|color:0xd6d6d6&style=feature:road|element:labels.icon|visibility:off&style=feature:poi|element:geometry.fill|color:0xdadada&key=AIzaSyC7Pj-rjokNjVOC7qvNVK5CX-KavShF1ZE'></image>\r\n                  </a>\r\n                  \r\n                </div>\r\n\r\n                <div id='details-text' class='large-7 small-10 column'>\r\n                  <div class='row'>\r\n                    <div class='column'>\r\n                      <a href='http://www.pianopianotherestaurant.com/'><h3 class='no-margin underline'>Piano Piano Restaurant</h3></a>\r\n                      <h5 class='no-margin'>88 Harbord Street</h5>\r\n                      <h5 class='no-margin'>Toronto, ON</h5>\r\n                    </div>\r\n                  </div>\r\n                  <div class='hide-for-medium rem-spacer'></div>\r\n                  <div class='row'>\r\n                  <!-- <div class='align-self-bottom'> -->\r\n                    \r\n                    <div class='column align-self-bottom align-self-left' id='date-details'>\r\n                      <h3 id='date-text' class='no-margin'>June 24<span class='superscript'>th</span>, 2017</h3>\r\n                      <h5 id='time-text' class='no-margin'>Ceremony starts at 6:00 PM</h5>\r\n                      <h5 id='dinner-reception-text' class='no-margin'>Dinner and reception to follow.</h5>\r\n                    </div>\r\n                  </div>\r\n                  <div class='hide-for-medium rem-spacer'></div>\r\n                  <div class='row'>\r\n                  <!-- <div class='align-self-bottom'> -->\r\n                    \r\n                    <div class='column align-self-bottom align-self-left' id='parking-details'>\r\n                      <h3 id='parking-title-text' class='no-margin'>Parking</h3>\r\n                      <h5 id='parking-text' class='no-margin'>We recommend taxi or transit, but if required there is a lot nearby at</h5>\r\n                      <h5>\r\n                        <a href='https://www.google.ca/maps/place/Graduate+House+Garage/@43.6635624,-79.4040061,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34be3e6a9e03:0xe5589930f48f1a6f!8m2!3d43.6635624!4d-79.4018174' class='underline'>17 Glen Morris St.</a>\r\n                      </h5>\r\n                    </div>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n         <div class='gifts  section' id='gifts'>\r\n          <div class='row align-center align-middle'>\r\n            <div class='large-9 small-10 columns align-self-middle'>\r\n              \r\n              <h3 class='text-left'>We have set up a honeyfund which allows guests to contribute towards portions of our honeymoon trip.</h3>\r\n              \r\n\r\n              <div class='row'>\r\n                <div class='large-12 columns text-left'>\r\n                  <a href='https://www.honeyfund.com/wedding/sydandrob'>\r\n                    <h1 class='underline'>Click Here to access our Honeyfund</h1>\r\n                  </a>\r\n                </div>\r\n              </div>\r\n\r\n              <div class='row'>\r\n                <div class='large-12 columns text-left'>\r\n                  <br><br>\r\n                  <h4 class='text-left'>We also have a more traditional registry set up with <a href='https://www.zonemaison.com/gifts_and_weddings/1724' class='underline'>Zone Maison</a> if preferred.</h4>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div class='rsvp section last-section' id='rsvp'>\r\n          <div class='row align-center'>\r\n            <div class='large-9 small-10 columns align-self-middle'>\r\n              <!-- <h1 class='text-center'>RSVP</h1> -->\r\n              \r\n              <div class='row'>\r\n                <div class='large-12 columns text-center'>\r\n                  <h3 class='text-left'>We would appreciate if you could RSVP before <strong>May 1<span class='superscript'>st</span>, 2017.</strong></h3>\r\n                  <a href='https://sydandrob.app.rsvpify.com/' id='rsvp-link' class='underline text-left'><h1>Click Here to RSVP</h1></a>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </body>\r\n</html>\r\n"
+module.exports = "<!doctype html>\r\n<html class='no-js' lang='en' dir='ltr'>\r\n  <head>\r\n    <meta charset='utf-8'>\r\n    <meta http-equiv='x-ua-compatible' content='ie=edge'>\r\n    <meta name='viewport' content='width=device-width, initial-scale=1.0'>\r\n    <title>Syd and Rob</title>\r\n\r\n    <script type='text/javascript' src='main.bundle.js'></script>\r\n  </head>\r\n  <body>\r\n    <div id='page-overlay'>\r\n      <img id='syd-image' class='show-for-medium fixed' src='images/save-the-date-no-text-topcrop-syd-nobg.png'></img>\r\n      <img id='rob-image' class='show-for-medium fixed' src='images/save-the-date-no-text-topcrop-rob-nobg.png'></img>\r\n      <img id='syd-blower' class='show-for-medium fixed' src='images/blower-2.png'></img>\r\n      <img id='rob-blower' class='show-for-medium fixed' src='images/blower-2.png'></img>\r\n      <img id='syd-blower-confetti' class='show-for-medium fixed' src='images/blower-confetti.png'></img>\r\n      <img id='rob-blower-confetti' class='show-for-medium fixed' src='images/blower-confetti.png'></img>\r\n\r\n    </div>\r\n    <div id='page'>\r\n      <div id='page-contents'>\r\n        <div data-sticky-container class='fixed'>\r\n          <div id='top-bar-container' class='sticky' data-options='anchor: page-contents; marginTop:0; stickyOn: small;'>\r\n            <div class='top-bar '>\r\n              <div class='top-bar-title '>\r\n                <div class='column small-12'>\r\n                  <span data-responsive-toggle='responsive-menu' data-hide-for='medium' class='align-self-right'>\r\n                    <button class='menu-icon dark' type='button' data-toggle></button>\r\n                  </span>\r\n                  <a id='syd-and-rob-text' href='#bg' class='show-for-medium'>Syd and Rob</a>\r\n                </div>\r\n              </div>\r\n\r\n              <div id='normal-menu' class='top-bar-right show-for-medium'>\r\n                <div class='column'>\r\n                  <ul class='menu' data-responsive-menu='drilldown medium-dropdown'>\r\n                    <li><a href='#details'>Details</a></li>\r\n                    <li><a href='#gifts'>Registry</a></li>\r\n                    <li><a href='#rsvp'><strong>RSVP</strong></a></li>\r\n                  </ul>\r\n                </div>\r\n              </div>\r\n\r\n              <div id='responsive-menu' class='top-bar-right hide-for-medium' >\r\n                <ul class='menu' data-responsive-menu='drilldown medium-dropdown'>\r\n                  <li><a href='#details'>Details</a></li>\r\n                  <li><a href='#gifts'>Registry</a></li>\r\n                  <li><a href='#rsvp'><strong>RSVP</strong></a></li>\r\n                </ul>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div id='bg' class='row align-center section'>\r\n          <div id='top-image'></div>\r\n        </div>\r\n\r\n        <div class='details section' id='details'>\r\n          <div class='row'>\r\n            <div class='large-12 small-12 column align-self-middle'>\r\n\r\n              <div class='row align-center'>\r\n                <div id='map-column' class='large-5 small-10 column'>\r\n                  <a href='https://www.google.ca/maps/dir//Piano+Piano+Restaurant,+88+Harbord+St,+Toronto,+ON+M5S+1G5/@43.6631306,-79.4052059,17z/data=!4m15!1m6!3m5!1s0x882b3495801ccf1d:0xbbf5547771ddd29!2sPiano+Piano+Restaurant!8m2!3d43.6631306!4d-79.4030172!4m7!1m0!1m5!1m1!1s0x882b3495801ccf1d:0xbbf5547771ddd29!2m2!1d-79.4030172!2d43.6631306'>\r\n                    <image src='https://maps.googleapis.com/maps/api/staticmap?&size=320x320&zoom=14&markers=color:0xa1a895|\"Piano+Piano+Restauraunt,+Toronto,+ON,+Canada\"&style=feature:water|element:geometry.fill|color:0xd3d3d3&style=feature:transit|stylers:|color:0x808080|visibility:off&style=feature:road.highway|element:geometry.stroke|visibility:on|color:0xb3b3b3&style=feature:road.highway|element:geometry.fill|color:0xffffff&style=feature:road.local|element:geometry.fill|visibility:on|color:0xffffff|weight:1.8&style=feature:road.local|element:geometry.stroke|color:0xd7d7d7&style=feature:poi|element:geometry.fill|visibility:on|color:0xebebeb&style=feature:administrative|element:geometry|color:0xa7a7a7&style=feature:road.arterial|element:geometry.fill|color:0xffffff&style=feature:road.arterial|element:geometry.fill|color:0xffffff&style=feature:landscape|element:geometry.fill|visibility:on|color:0xefefef&style=feature:road|element:labels.text.fill|color:0x696969&style=feature:administrative|element:labels.text.fill|visibility:on|color:0x737373&style=feature:poi|element:labels.icon|visibility:off&style=feature:poi|element:labels|visibility:off&style=feature:road.arterial|element:geometry.stroke|color:0xd6d6d6&style=feature:road|element:labels.icon|visibility:off&style=feature:poi|element:geometry.fill|color:0xdadada&key=AIzaSyC7Pj-rjokNjVOC7qvNVK5CX-KavShF1ZE'></image>\r\n                  </a>\r\n                  \r\n                </div>\r\n\r\n                <div id='details-text' class='large-7 small-10 column'>\r\n                  <div class='row'>\r\n                    <div class='column'>\r\n                      <a href='http://www.pianopianotherestaurant.com/'><h3 class='no-margin underline'>Piano Piano Restaurant</h3></a>\r\n                      <h5 class='no-margin'>88 Harbord Street</h5>\r\n                      <h5 class='no-margin'>Toronto, ON</h5>\r\n                    </div>\r\n                  </div>\r\n                  <div class='hide-for-medium rem-spacer'></div>\r\n                  <div class='row'>\r\n                  <!-- <div class='align-self-bottom'> -->\r\n                    \r\n                    <div class='column align-self-bottom align-self-left' id='date-details'>\r\n                      <h3 id='date-text' class='no-margin'>June 24<span class='superscript'>th</span>, 2017</h3>\r\n                      <h5 id='time-text' class='no-margin'>Ceremony starts at 6:00 PM</h5>\r\n                      <h5 id='dinner-reception-text' class='no-margin'>Dinner and reception to follow.</h5>\r\n                    </div>\r\n                  </div>\r\n                  <div class='hide-for-medium rem-spacer'></div>\r\n                  <div class='row'>\r\n                  <!-- <div class='align-self-bottom'> -->\r\n                    \r\n                    <div class='column align-self-bottom align-self-left' id='parking-details'>\r\n                      <h3 id='parking-title-text' class='no-margin'>Parking</h3>\r\n                      <h5 id='parking-text' class='no-margin'>We recommend taxi or transit, but if required there is a lot nearby at</h5>\r\n                      <h5>\r\n                        <a href='https://www.google.ca/maps/place/Graduate+House+Garage/@43.6635624,-79.4040061,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34be3e6a9e03:0xe5589930f48f1a6f!8m2!3d43.6635624!4d-79.4018174' class='underline'>17 Glen Morris St.</a>\r\n                      </h5>\r\n                    </div>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n         <div class='gifts  section' id='gifts'>\r\n          <div class='row align-center align-middle'>\r\n            <div class='large-9 small-10 columns align-self-middle'>\r\n              \r\n              <h3 class='text-left'>We have set up a honeyfund which allows guests to contribute towards portions of our honeymoon trip.</h3>\r\n              \r\n\r\n              <div class='row'>\r\n                <div class='large-12 columns text-left'>\r\n                  <a href='https://www.honeyfund.com/wedding/sydandrob'>\r\n                    <h1 class='underline'>Click Here to access our Honeyfund</h1>\r\n                  </a>\r\n                </div>\r\n              </div>\r\n\r\n              <div class='row'>\r\n                <div class='large-12 columns text-left'>\r\n                  <br><br>\r\n                  <h4 class='text-left'>We also have a more traditional registry set up with <a href='https://www.zonemaison.com/gifts_and_weddings/1724' class='underline'>Zone Maison</a> if preferred.</h4>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div class='rsvp section last-section' id='rsvp'>\r\n          <div class='row align-center'>\r\n            <div class='large-9 small-10 columns align-self-middle'>\r\n              <!-- <h1 class='text-center'>RSVP</h1> -->\r\n              \r\n              <div class='row'>\r\n                <div class='large-12 columns text-center'>\r\n                  <h3 class='text-left'>We would appreciate if you could RSVP before <strong>May 7<span class='superscript'>th</span>, 2017.</strong></h3>\r\n                  <a href='https://sydandrob.app.rsvpify.com/' id='rsvp-link' class='underline text-left'><h1>Click Here to RSVP</h1></a>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </body>\r\n</html>\r\n"
 
 /***/ }),
 /* 2 */
@@ -537,22 +537,30 @@ Math.degrees = function(radians) {
 
 var bound = function(min, max, val) {
     return Math.max(min, Math.min(max, val));
-}
+};
 
 var linear = function(start, end, t) {
     return (end - start) * t + start;
-}
+};
+
+var easeOutExpo = function (start, end, t) {
+    return (t>=1) ? end : (end - start) * (-Math.pow(2, -10 * t) + 1) + start;
+};
+
 
 var sydImageWidth = 10000; // default settings to prevent pop-in
 var robImageWidth = 10000;
+var blowerImageWidth = 10000; // default settings to prevent pop-in
 
 
 window.addEventListener("load", function(event) {
     var $sydImage = $('#syd-image');
     var $robImage = $('#rob-image');
+    var $robBlower = $('#rob-blower');
 
     sydImageWidth = $sydImage.width();
     robImageWidth = $robImage.width();
+    blowerImageWidth = $robBlower.width();
 });
 
 var main = function() {
@@ -567,44 +575,81 @@ var main = function() {
     });
 
 
-    var bgHeight = $('#bg').height();
-    var detailsHeight = $('#details').height();
-    var giftsHeight = $('#gifts').height();
+    var bgHeight, detailsHeight, giftsHeight, bgTop, detailsTop, giftsTop, rsvpTop, bgMid, detailsMid, giftsMid;
 
-    var bgTop = 0
-    var detailsTop = bgTop + bgHeight;
-    var giftsTop = detailsTop + detailsHeight;
-    var rsvpTop = giftsTop + giftsHeight;
+    var reloadHeights = function() {
+        bgHeight = $('#bg').height();
+        detailsHeight = $('#details').height();
+        giftsHeight = $('#gifts').height();
 
-    var bgMid = bgTop + bgHeight / 2;
-    var detailsMid = detailsTop + detailsHeight / 2;
-    var giftsMid = giftsTop + giftsHeight / 2;
+        bgTop = 0
+        detailsTop = bgTop + bgHeight;
+        giftsTop = detailsTop + detailsHeight;
+        rsvpTop = giftsTop + giftsHeight;
+
+        bgMid = bgTop + bgHeight / 2;
+        detailsMid = detailsTop + detailsHeight / 2;
+        giftsMid = giftsTop + giftsHeight / 2;
+    }
+
+    reloadHeights();
 
     var $sydImage = $('#syd-image');
     var $robImage = $('#rob-image');
+    var $robBlower = $('#rob-blower');
+    var $sydBlower = $('#syd-blower');
+    var $robBlowerConfetti = $('#rob-blower-confetti');
+    var $sydBlowerConfetti = $('#syd-blower-confetti');
 
     var pageWidth = $(window).innerWidth();
 
     window.addEventListener("optimizedResize", function() {
         pageWidth = $(window).innerWidth();
+        reloadHeights();
     });
 
     var update = function() {
         var scrollY = window.scrollY || document.body.scrollTop;
 
-        //if (scrollY >= (bgHeight / 2)) {
-            var animPct = bound(0, 1, (scrollY - bgMid) / (detailsTop - bgMid));
+        var animPct = bound(0, 1, (scrollY - bgMid) / (detailsTop - bgMid));
 
-            var rotationAngle = 25;
-            var robMinX = -robImageWidth - robImageWidth * Math.cos(Math.radians(rotationAngle))
-            var sydMaxX = pageWidth + (sydImageWidth * Math.cos(Math.radians(rotationAngle)))
+        var rotationAngle = 25;
+        var robMinX = -robImageWidth - robImageWidth * Math.cos(Math.radians(rotationAngle))
+        var sydMaxX = pageWidth + (sydImageWidth * Math.cos(Math.radians(rotationAngle)))
 
-            var sydx = linear(sydMaxX, pageWidth - sydImageWidth / 2, animPct);
-            var robx = linear(robMinX, -robImageWidth/2, animPct);
+        var sydx = linear(sydMaxX, pageWidth - sydImageWidth / 2, animPct);
+        var sydy = 100;
+        var robx = linear(robMinX, -robImageWidth/2, animPct);
+        var roby = 100;
 
-            setTransform($sydImage, "translate3d(" + sydx + "px, 100px, 0) rotate3d(0, 0, 1, -"+rotationAngle+"deg)");
-            setTransform($robImage, "translate3d(" + robx + "px, 100px, 0) rotate3d(0, 0, 1, "+rotationAngle+"deg)");
-        //}
+        setTransform($sydImage, "translate3d(" + sydx + "px, "+sydy+"px, 0) rotate3d(0, 0, 1, "+-rotationAngle+"deg)");
+        setTransform($robImage, "translate3d(" + robx + "px, "+roby+"px, 0) rotate3d(0, 0, 1, "+rotationAngle+"deg)");
+        
+        var blowerAnimPct = bound(0, 1, (scrollY - detailsMid) / (giftsTop - detailsMid));
+
+        var robBlowerAngle = 30;
+        var robBlowerMinX = -blowerImageWidth * Math.cos(Math.radians(robBlowerAngle));
+        var robBlowerx = easeOutExpo(robBlowerMinX, robx + 240, blowerAnimPct);
+        var robBlowery = roby + 40;
+
+        var sydBlowerAngle = -165;
+        var sydBlowerMaxX = pageWidth + blowerImageWidth * Math.cos(Math.radians(robBlowerAngle));
+        var sydBlowerx = easeOutExpo(sydBlowerMaxX, sydx - 100, blowerAnimPct);
+        var sydBlowery = sydy + 90;
+
+        var robBlowerTransformStr = "translate3d(" + robBlowerx + "px, "+robBlowery+"px, 0) rotate3d(0, 0, 1, "+robBlowerAngle+"deg)";
+        var sydBlowerTransformStr = "translate3d(" + sydBlowerx + "px, "+sydBlowery+"px, 0) rotate3d(0, 0, 1, "+sydBlowerAngle+"deg)"
+
+        setTransform($robBlower, robBlowerTransformStr);
+        setTransform($sydBlower, sydBlowerTransformStr);
+
+        if (scrollY >= (rsvpTop)) {
+            setTransform($robBlowerConfetti, robBlowerTransformStr);
+            setTransform($sydBlowerConfetti, sydBlowerTransformStr);
+        } else {
+            setTransform($robBlowerConfetti, "translate3d(" + 10000 + "px, "+0+"px, 0)");
+            setTransform($sydBlowerConfetti, "translate3d(" + 10000 + "px, "+0+"px, 0)");
+        }
 
         window.requestAnimationFrame(update)
     };
