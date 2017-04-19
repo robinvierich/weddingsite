@@ -45,7 +45,6 @@ $top-bar-height: 62px;
 }
 
 .fullwidth {
-	//width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: initial;
@@ -77,13 +76,11 @@ $top-bar-height: 62px;
 	position: absolute;
 
 	#syd-image {
-		//-webkit-transform: translate3d(100vw, 0, 0);
 		position: fixed;
 		transform: translate3d(100vw, 0, 0);
 	}
 
 	#rob-image {
-		//-webkit-transform: translate3d(-200px, 0, 0);
 		position: fixed;
 		transform: translate3d(-1000px, 0, 0);
 	}	
@@ -102,20 +99,13 @@ $top-bar-height: 62px;
 }
 
 #top-image {
-	// background: url('images/save-the-date-no-text-topcrop.png') no-repeat;
 	background: #fff url('images/stjohns.jpg') no-repeat fixed;
 	background-size: cover;
     background-position: 80% 50%;
     width: 100%;
-	
-	//max-height: 1052;
-
-	//width: auto;
-	//height: auto;
 }
 
 #details {
-	//background: $silver-green;
 	background: $pastel-gray;
 }
 
@@ -124,7 +114,6 @@ $top-bar-height: 62px;
 }
 
 #date-details{
-	//margin-top: 5rem;	
 }
 
 .gifts {
@@ -132,15 +121,8 @@ $top-bar-height: 62px;
 }
 
 #rsvp {
-	//background: $silver-green;
 	background: $pastel-gray;
 }
-
-// .reception {
-// 	background: $silver-green;
-// }
-
-
 
 .top-bar {
 	position: relative;
@@ -148,10 +130,6 @@ $top-bar-height: 62px;
 
 	a {
 		font-size: 1.5rem;
-		//text-shadow: 0px 1px 1px rgba($pastel-gray, 0.5);
-		// &:hover {
-		// 	text-shadow: none;
-		// }
 	}
 
 	#title-text {
@@ -169,13 +147,6 @@ $top-bar-height: 62px;
 }
 
 #responsive-menu{
-	//background: $storm;
-	//background: $goldenrod;
-	//background: $pecan;
-	//background: $blush;
-	//background: $storm;
-
-	//background: rgba($sage, 0.4);
 
 	background: rgba(#FAFAFA, 0.9);
 
@@ -188,31 +159,11 @@ $top-bar-height: 62px;
 		border-left: 1px solid $dark-color;
 		border-right: 1px solid $dark-color;
 	}
-
-//	background: rgba(0,0,0,0.2);
-
-
-	//background: $beaver;
-
-	//background: $sage;
-	//background: $laurel-green;
-	//background: $pastel-gray;
-	//background: $silver-green;
-
-	//background: $pale-spring-bud;
-	//background: $spanish-gray;
-	//background: $pewter-blue;
-
-	//background: $main-color;
-	//background: $dark-color;
-
-	//background: $dark-font-color;
 }
 
 .section {
 	height: 99vh;
 	min-height: 700px;
-	//padding-top: 1.5rem;
 
 	> .row {
 		height: 100%;
@@ -251,25 +202,14 @@ $top-bar-height: 62px;
 
 
 #rsvp-link {
-	//display:none;
-	
-
 	h1 {
-		//margin-top: 4rem;
 	}
 }
 
 #rsvp-button {
 	height: 55px;
-	//height: 82px;
 }
 
-// #details-text {
-// 	#date-text {
-// 		margin:0
-// 	}
-
-	// #time-text {
-	// 	margin-top: 30%;
-	// }
-// }
+#rsvp-text {
+	font-size: 1.91rem;
+}
