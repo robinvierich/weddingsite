@@ -100,11 +100,12 @@ $top-bar-height: 62px;
 
 #top-image {
 	background-color: #ffffff;
-	background: url('../images/stjohns.png') fixed; 
+	background: url('../images/stjohns.png'); 
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: scroll;
     background-position: 80% 50%;
-    width: 100%;
+    min-width: 100%;
 }
 
 #details {
