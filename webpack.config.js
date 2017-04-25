@@ -44,14 +44,13 @@ module.exports = {
                     {loader: 'style-loader'},
                     {loader: 'css-loader'},
                     {loader: 'resolve-url-loader'},
-                    {loader: 'postcss-loader'},
                     {loader: 'sass-loader'},
-
+                    //{loader: 'postcss-loader'},
                 ]
             },
             {
-                test: /\.(png|jpg)/,
-                loader: 'url-loader'
+                test: /\.(png|jpg)$/,
+                loader: 'file-loader?name=images/[name].[ext]'
             },
             {
                 test: /\.html$/,
