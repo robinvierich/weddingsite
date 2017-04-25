@@ -111,11 +111,24 @@ $top-bar-height: 62px;
 	background: $pastel-gray;
 }
 
+#date-row {
+	margin: 0 4rem 6rem 4rem;
+}
+
 #parking-title-text {
 	margin-top: 0.75rem;
 }
 
+#hotel-title-text {
+	margin-top: 0.75rem;
+}
+
 #date-details{
+	text-align: center;
+}
+
+.details-row {
+	margin-bottom: 1.5rem;
 }
 
 .gifts {
@@ -176,12 +189,23 @@ $top-bar-height: 62px;
 	}
 }
 
+.inline-block {
+	display: inline-block;
+}
+
+.inline-marker-img {
+	margin: 0 0.25rem 0.75rem 0;
+}
+
 .underline {
 	text-decoration: underline;
 }
 
-#map-column {
+.text-align-right {
 	text-align: right;
+}
+
+#map-column {
 	margin-bottom: 2rem;
 }
 
