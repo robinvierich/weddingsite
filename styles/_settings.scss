@@ -8,8 +8,8 @@ $header-margin-bottom: 2rem;
 
 $body-font-family: 'Audrey';
 
-$anchor-color: $dark-font-color;
-$anchor-color-hover: scale-color($anchor-color, $lightness: +50%);
+$anchor-color: scale-color($dark-font-color, $lightness: +50%);
+$anchor-color-hover: scale-color($anchor-color, $lightness: +80%);
 
 $hr-border: 1px solid $body-font-color;
 
